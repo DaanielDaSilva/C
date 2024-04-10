@@ -7,7 +7,7 @@ int main(){
     printf("Digite seu salário\n");
     scanf("%f",&sal);
 
-    novosal=sal+sal*0.25; //forma 1
+    novosal=sal+sal*0.25;
     
     printf("\nO novo salário é: %.2f\n",novosal);
 }
