@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+float valor,novoval;
+
+int main(){
+
+    printf("Digite o valor da TV:\n");
+    scanf("%f",&valor);
+
+    novoval = valor - valor * 0.10;
+
+    printf("\nO valor da TV com desconto é: %.2f\n",novoval);
+
+return 0;
+}
