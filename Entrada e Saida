@@ -1,0 +1,20 @@
+#include<stdio.h>
+int idade;
+float peso;
+char sexo, nome[40];
+int main(){
+
+	printf("Digite sua idade\n");
+	scanf("%d",&idade);
+
+	printf("\nDigite seu peso\n");
+	scanf("%f",&peso);
+	
+	printf("\nDigite seu sexo\n");
+	scanf(" %c",&sexo);
+
+	printf("\nDigite seu nome\n");
+	scanf(" %[^\n]",&nome);
+
+	printf("\nIdade: %d, Peso: %2.2f, Sexo: %c, Nome: %s\n",idade,peso,sexo,nome);
+}	
