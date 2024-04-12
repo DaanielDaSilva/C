@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int qde;
+float preco;
+
+int main(){
+	printf("Macas custa RS 1,35. Na promocao levando 12 sai por RS 1,00 cada\n");
+	printf("\nQuantas macas voce deseja comprar?\n");
+	scanf("%d",&qde);
+
+	if(qde>=12){
+	
+		preco=qde*1.00;
+		printf("\no valor total da compra e: %.2f\n",preco);
+}
+
+	else{
+		preco=qde*1.30;
+		printf("\no valor total da compra e: %.2f\n",preco);
+}
+return 0;
+}
