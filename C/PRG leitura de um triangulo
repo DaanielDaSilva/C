@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+float a,b,c;
+
+int main(){
+
+	printf("Digite o tamanho do lado a\n");
+	scanf("%f",&a);
+
+	printf("\nDigite o tamanho do lado b\n");
+	scanf("%f",&b);
+
+	printf("\nDigite o tamanho do lado c\n");
+	scanf("%f",&c);
+
+	if(a+b>c && a+c>b && b+c>a){
+	if((a==b)&&(b==c)){
+
+		printf("\nTriangulo equilatero\n"); }
+	
+	else if((a==b)||(b==c)||(c==a)){
+
+		printf("\nTriangulo isoceles\n"); }
+
+	else{
+
+		printf("\nTriangulo escaleno\n"); 
+		}
+	}
+
+	else{
+		printf("Nao e um triangulo\n");
+}
+
+}
