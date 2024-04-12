@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+float n1,n2,media;
+
+int main(){
+
+	printf("Digite as notas 1 e 2\n");
+	scanf("%f %f",&n1,&n2);
+
+	if(n1>=0 && n1<=10 && n2>=0 && n2<=10){
+
+	media=(n1+n2)/2;
+
+	if(media>=7){
+		printf("\nAprovado com media: %.2f\n",media); }
+
+	else if(media>=3 && media<7){
+		printf("\nExame com media: %.2f\n",media); }
+
+	else{
+		printf("\nReprovado com media: %.2f\n",media); }
+}
+
+	else{
+	
+		printf("\nNota Invalida\n");
+}
+}
