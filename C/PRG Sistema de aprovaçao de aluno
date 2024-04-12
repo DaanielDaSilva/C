@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+float n1,n2,media;
+
+int main(){
+
+	printf("Digite a nota 1\n");
+	scanf("%f",&n1);
+
+	printf("\nDigite a nota 2\n");
+	scanf("%f",&n2);
+
+	media=(n1+n2)/2;
+
+	if(media>=6){
+	
+	printf("Aluno aprovado, nota %.2f\n",media);
+}
+
+	else{
+
+	printf("Aluno reprovado, nota %.2f\n",media);
+
+}
+return 0;
+}
