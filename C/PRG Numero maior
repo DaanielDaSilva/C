@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+float n=0;
+
+int main(){
+
+	printf("Digite um numero 10\n");
+	scanf("%f",&n);
+
+	if(n>10){
+
+	printf("\nO numero e maior do que 10\n");
+}
+}
